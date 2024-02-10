@@ -5,14 +5,15 @@ import Button from "./assets/Components/Button/Button";
 import Card from "./assets/Components/Card/Card";
 
 
+
 const App = () => {
   return (
     <>
       <Header />
       <Button>Sort By date</Button>
+      <Card/>
       <Button>See More</Button>
-      <Card></Card>
-    </>
+</>
   );
 };
 
